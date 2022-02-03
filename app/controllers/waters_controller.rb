@@ -11,7 +11,7 @@ class WatersController < ApplicationController
       @array_of_numbers.push(another_number)
     end
     
-    render({ :template => "aqua_views/cancer.html.erb" })
+    render({ :template => "aqua/cancer.html.erb" })
   end
 
   def scorpion
@@ -25,7 +25,7 @@ class WatersController < ApplicationController
       @array_of_numbers.push(another_number)
     end
     
-    render({ :template => "aqua_views/scorpio.html.erb" })
+    render({ :template => "aqua/scorpio.html.erb" })
   end
 
   def fish
@@ -40,6 +40,6 @@ class WatersController < ApplicationController
       @array_of_numbers.push(another_number)
     end
     
-    render({ :template => "aqua_views/pisces.html.erb" })
+    render({ :template => "layouts/pisces.html.erb" })
   end
 end
